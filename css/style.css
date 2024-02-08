@@ -1,0 +1,58 @@
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header-main-box {
+  width: 1220px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left-box {
+  width: 200px;
+}
+.headerlogo {
+  width: 42.17px;
+}
+.name {
+  content: "WhiteCollar";
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #37393f;
+}
+
+.header-right-box {
+  width: 825px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav-ul {
+  width: 601px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-li {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #37393f;
+}
+.button {
+  background-color: #6b77e5;
+  width: 184px;
+  height: 65px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
