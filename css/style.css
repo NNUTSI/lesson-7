@@ -1,7 +1,5 @@
 /* header */
-body {
-  height: 3000px;
-}
+
 .header {
   display: flex;
   justify-content: center;
@@ -14,6 +12,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #ffffff;
+  opacity: 90%;
 }
 .header-left-box {
   width: 200px;
@@ -129,7 +129,6 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
-  background-color: brown;
 }
 
 /* ------------- sectin2--------------- */
@@ -188,4 +187,125 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 80px;
+}
+
+/* ----------------section3----------- */
+.section3 {
+  margin: 130px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3-main-box {
+  width: 1220px;
+  height: 659px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section3-h3 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  text-align: center;
+  color: #37393f;
+}
+.section3-h2 {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+.section3-rows {
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+  background-image: url(/pic/Image.jpg);
+  width: 386px;
+  height: 532px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img2 {
+  background-image: url(/pic/Photo.png);
+  width: 386px;
+  height: 532px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.img3 {
+  background-image: url(/pic/Photo1.png);
+  width: 386px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.experts {
+  width: 342px;
+  height: 114px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section3-p1 {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  color: #37393f;
+}
+.section3-p2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #7d7d7d;
+}
+
+/* _____ hovers_________ */
+.header-nav-li :hover {
+  font-size: 22px;
+  font-weight: 600;
+  color: #252629;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #3b45a4;
+  border-radius: 95px;
+  transition-duration: 0.4s;
+}
+.play:hover {
+  opacity: 70%;
+  transition-duration: 0.4s;
+}
+.img3 :hover {
+  opacity: 80%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.img2 :hover {
+  opacity: 80%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.img1 :hover {
+  opacity: 80%;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
